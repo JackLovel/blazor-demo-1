@@ -1,0 +1,33 @@
+﻿@page "/person/add"
+@page "/person/edit/{userId:int}"
+
+<PageTitle>AddUpdatePerson</PageTitle>
+
+<h3>Title</h3>
+<a href="#" class="btn btn-outline-dark">
+    show all
+</a>
+<div class="row">
+    <div class="col-md-6">
+        <EditForm Model="@person" OnValidSubmit="Save">
+            <DataAnnotationsValidator/>
+            <div class="form-group">
+                <label for="Name">name</label>
+                <InputText class="form-control" @bind-Value="person.Name"/>
+                <ValidationMessage For="@(()=> person.Name)"/>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int UserId { get; set; }
+    private string message = string.Empty;
+    Model.Person person = new Model.Person();
+
+    private void Save()
+    {
+        
+    }
+}
