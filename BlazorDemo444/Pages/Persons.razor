@@ -1,0 +1,60 @@
+﻿@page "/persons"
+@using Model
+@using Service
+@inject IJSRuntime jsRuntime
+@inject IPersonService personService
+
+<h3>Persons</h3>
+<a href="/person/add" class="btn btn-outline-dark">
+Add more
+</a>
+<div class="row">
+    <div class="col-md-6">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Action</th>
+                </tr>
+            </thead>
+                <tbody>
+
+            @foreach (var person in person2)
+            {
+                    <tr>
+                        <td>@person.Name</td>
+                        <td>@person.Email</td>
+                        <td>
+                            <a href="/person/edit/@person.Id" class="btn btn-success">edit</a>
+                            <a class="btn btn-danger"
+                            @onclick="async () => await Delete(person)">delete</a>
+                        </td>
+                    </tr>
+            }
+            </tbody>
+
+            </table>
+    </div>
+</div>
+
+@code {
+    private List<Person> person2 = new List<Person>();
+    private async Task Delete(Person person)
+    {
+        bool confirmed = await jsRuntime.InvokeAsync<bool>("confirm", "are you sure??");
+        if (confirmed)
+        {
+            if (personService.Delete(person.Id))
+            {
+                person2.Remove(person);
+            }
+        }
+    }
+
+    protected override void OnInitialized()
+    {
+        person2 = personService.FindAll();
+        base.OnInitialized();
+    }
+}

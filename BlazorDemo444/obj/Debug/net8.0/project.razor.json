@@ -13,43 +13,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1352765418,
-        "Kind": "Components.Component",
-        "Name": "BlazorDemo444.Pages.AddUpdatePerson",
-        "AssemblyName": "BlazorDemo444",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AddUpdatePerson"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorDemo444.Pages.AddUpdatePerson",
-          "Common.TypeNameIdentifier": "AddUpdatePerson",
-          "Common.TypeNamespace": "BlazorDemo444.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1625368030,
-        "Kind": "Components.Component",
-        "Name": "BlazorDemo444.Pages.AddUpdatePerson",
-        "AssemblyName": "BlazorDemo444",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorDemo444.Pages.AddUpdatePerson"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorDemo444.Pages.AddUpdatePerson",
-          "Common.TypeNameIdentifier": "AddUpdatePerson",
-          "Common.TypeNamespace": "BlazorDemo444.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -1779853163,
         "Kind": "Components.Component",
         "Name": "BlazorDemo444.Pages.Counter",
@@ -81,43 +44,6 @@
         "Metadata": {
           "Common.TypeName": "BlazorDemo444.Pages.Counter",
           "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "BlazorDemo444.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1410643912,
-        "Kind": "Components.Component",
-        "Name": "BlazorDemo444.Pages.FetchData",
-        "AssemblyName": "BlazorDemo444",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorDemo444.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "BlazorDemo444.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1256301800,
-        "Kind": "Components.Component",
-        "Name": "BlazorDemo444.Pages.FetchData",
-        "AssemblyName": "BlazorDemo444",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorDemo444.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorDemo444.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
           "Common.TypeNamespace": "BlazorDemo444.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -161,38 +87,112 @@
         }
       },
       {
-        "HashCode": 941035494,
+        "HashCode": 1410643912,
         "Kind": "Components.Component",
-        "Name": "BlazorDemo444.App",
+        "Name": "BlazorDemo444.Pages.FetchData",
         "AssemblyName": "BlazorDemo444",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "FetchData"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorDemo444.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "BlazorDemo444",
+          "Common.TypeName": "BlazorDemo444.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "BlazorDemo444.Pages",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 1712352108,
+        "HashCode": -1256301800,
         "Kind": "Components.Component",
-        "Name": "BlazorDemo444.App",
+        "Name": "BlazorDemo444.Pages.FetchData",
         "AssemblyName": "BlazorDemo444",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorDemo444.App"
+            "TagName": "BlazorDemo444.Pages.FetchData"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorDemo444.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "BlazorDemo444",
+          "Common.TypeName": "BlazorDemo444.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "BlazorDemo444.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1352765418,
+        "Kind": "Components.Component",
+        "Name": "BlazorDemo444.Pages.AddUpdatePerson",
+        "AssemblyName": "BlazorDemo444",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddUpdatePerson"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorDemo444.Pages.AddUpdatePerson",
+          "Common.TypeNameIdentifier": "AddUpdatePerson",
+          "Common.TypeNamespace": "BlazorDemo444.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1625368030,
+        "Kind": "Components.Component",
+        "Name": "BlazorDemo444.Pages.AddUpdatePerson",
+        "AssemblyName": "BlazorDemo444",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorDemo444.Pages.AddUpdatePerson"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorDemo444.Pages.AddUpdatePerson",
+          "Common.TypeNameIdentifier": "AddUpdatePerson",
+          "Common.TypeNamespace": "BlazorDemo444.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1284344353,
+        "Kind": "Components.Component",
+        "Name": "BlazorDemo444.Pages.Persons",
+        "AssemblyName": "BlazorDemo444",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Persons"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorDemo444.Pages.Persons",
+          "Common.TypeNameIdentifier": "Persons",
+          "Common.TypeNamespace": "BlazorDemo444.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 140200350,
+        "Kind": "Components.Component",
+        "Name": "BlazorDemo444.Pages.Persons",
+        "AssemblyName": "BlazorDemo444",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorDemo444.Pages.Persons"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorDemo444.Pages.Persons",
+          "Common.TypeNameIdentifier": "Persons",
+          "Common.TypeNamespace": "BlazorDemo444.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -336,6 +336,43 @@
           "Common.TypeName": "BlazorDemo444.Shared.NavMenu",
           "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "BlazorDemo444.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 941035494,
+        "Kind": "Components.Component",
+        "Name": "BlazorDemo444.App",
+        "AssemblyName": "BlazorDemo444",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorDemo444.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "BlazorDemo444",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1712352108,
+        "Kind": "Components.Component",
+        "Name": "BlazorDemo444.App",
+        "AssemblyName": "BlazorDemo444",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorDemo444.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorDemo444.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "BlazorDemo444",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -19203,6 +19240,11 @@
   },
   "RootNamespace": "BlazorDemo444",
   "Documents": [
+    {
+      "FilePath": "e:\\MVC\\BlazorDemo444\\BlazorDemo444\\Pages\\Persons.razor",
+      "TargetPath": "Pages\\Persons.razor",
+      "FileKind": "component"
+    },
     {
       "FilePath": "e:\\MVC\\BlazorDemo444\\BlazorDemo444\\_Imports.razor",
       "TargetPath": "_Imports.razor",

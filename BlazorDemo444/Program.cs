@@ -1,4 +1,5 @@
 using BlazorDemo444.Data;
+using BlazorDemo444.Service;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +12,7 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddDbContext<AppsContext>(o
     => o.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddTransient<IPersonService, PersonService>();
 
 var app = builder.Build();
 
